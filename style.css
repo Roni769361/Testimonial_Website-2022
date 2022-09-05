@@ -117,3 +117,6 @@ body{
 .nav-link:hover{
     background-color: black !important;
 }
+#secondHero{
+    display: none;
+}
