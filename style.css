@@ -32,3 +32,75 @@ body{
     border-radius: 30px;
     background-color: rgba(0, 0, 255, 0.288);
 }
+.noticeBoard{
+    width: auto;
+    /* border: 2px solid red; */
+}
+.noticeBoard h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: azure;
+    border: 1px solid gold;
+    background-color: rgba(39, 39, 39, 0.486);
+    padding: 10px;
+    border-radius: 30px;
+
+}
+@media (max-width: 576px){
+    .noticeBoard h1{
+        font-size: 50px;
+        font-weight: 700;
+        color: azure;
+        border: 1px solid gold;
+        background-color: rgb(255, 0, 0);
+        padding: 10px;
+        border-radius: 5px;
+        
+    }
+}
+.noticeBoard p{
+    font-size: 18px;
+    /* font-weight: 700; */
+    color: azure;
+    border: 1px solid gold;
+    background-color: rgba(39, 39, 39, 0.514);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: justify;
+}
+.noticeBoard .highlight{
+    color: rgb(12, 12, 12);
+    background-color: rgba(255, 255, 0, 0.842);
+    font-size: 21px;
+}
+.noticeBoard .highlight2{
+    color: red;
+    background-color: black;
+}
+
+.noticeBoard h4{
+    font-size: 20px;
+    /* font-weight: 700; */
+    color: azure;
+    border: 1px solid gold;
+    background-color: rgba(39, 39, 39, 0.486);
+    padding: 10px;
+    border-radius: 30px;
+
+}
+
+.testBtn{
+    background-color: rgb(255, 238, 0);
+    color: red;
+    padding: 10px;
+    /* margin: 10px 0; */
+    border: 2px solid red;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: ;
+}
+
+.testBtn:hover{
+    color: yellow;
+    background-color: red;
+}
