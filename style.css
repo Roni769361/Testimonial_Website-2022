@@ -110,3 +110,10 @@ body{
 #roniNath{
     display: none;
 }
+.nav-link{
+    color: red !important;
+
+}
+.nav-link:hover{
+    background-color: black !important;
+}
